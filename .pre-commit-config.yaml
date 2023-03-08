@@ -3,7 +3,6 @@ exclude: |
   # NOT INSTALLABLE ADDONS
   ^base_export_async/|
   ^base_import_async/|
-  ^queue_job_cron_jobrunner/|
   ^queue_job_subscribe/|
   ^test_base_import_async/|
   # END NOT INSTALLABLE ADDONS
@@ -106,7 +105,7 @@ repos:
       - id: pyupgrade
         args: ["--keep-percent-format"]
   - repo: https://github.com/PyCQA/isort
-    rev: 5.10.1
+    rev: 5.12.0
     hooks:
       - id: isort
         name: isort except __init__.py
