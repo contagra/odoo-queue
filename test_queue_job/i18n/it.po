@@ -4,43 +4,43 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-08-31 09:23+0000\n"
-"Last-Translator: 黎伟杰 <674416404@qq.com>\n"
+"PO-Revision-Date: 2024-02-12 11:39+0000\n"
+"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
-"Language: zh_CN\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
 
 #. module: test_queue_job
 #: model:ir.model.fields,field_description:test_queue_job.field_queue_job__additional_info
 msgid "Additional Info"
-msgstr ""
+msgstr "Informazioni aggiuntive"
 
 #. module: test_queue_job
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_channel__create_uid
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_job__create_uid
 #: model:ir.model.fields,field_description:test_queue_job.field_test_related_action__create_uid
 msgid "Created by"
-msgstr "创建者"
+msgstr "Creato da"
 
 #. module: test_queue_job
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_channel__create_date
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_job__create_date
 #: model:ir.model.fields,field_description:test_queue_job.field_test_related_action__create_date
 msgid "Created on"
-msgstr "创建时间"
+msgstr "Creato il"
 
 #. module: test_queue_job
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_channel__display_name
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_job__display_name
 #: model:ir.model.fields,field_description:test_queue_job.field_test_related_action__display_name
 msgid "Display Name"
-msgstr "显示名称"
+msgstr "Nome visualizzato"
 
 #. module: test_queue_job
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_channel__id
@@ -54,39 +54,36 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_job__write_uid
 #: model:ir.model.fields,field_description:test_queue_job.field_test_related_action__write_uid
 msgid "Last Updated by"
-msgstr "最后更新者"
+msgstr "Ultimo aggiornamento di"
 
 #. module: test_queue_job
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_channel__write_date
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_job__write_date
 #: model:ir.model.fields,field_description:test_queue_job.field_test_related_action__write_date
 msgid "Last Updated on"
-msgstr "最后更新时间"
+msgstr "Ultimo aggiornamento il"
 
 #. module: test_queue_job
 #: model:ir.model.fields,field_description:test_queue_job.field_test_queue_job__name
 msgid "Name"
-msgstr "名称"
+msgstr "Nome"
 
 #. module: test_queue_job
 #: model:ir.model,name:test_queue_job.model_queue_job
 msgid "Queue Job"
-msgstr "队列作业"
+msgstr "Lavoro in coda"
 
 #. module: test_queue_job
 #: model:ir.model,name:test_queue_job.model_test_queue_channel
 msgid "Test model for queue.channel"
-msgstr "测试模型 queue.channel"
+msgstr "Prova modello per queue.channel"
 
 #. module: test_queue_job
 #: model:ir.model,name:test_queue_job.model_test_queue_job
 msgid "Test model for queue.job"
-msgstr "测试模型queue.job"
+msgstr "Prova modello per queue.job"
 
 #. module: test_queue_job
 #: model:ir.model,name:test_queue_job.model_test_related_action
 msgid "Test model for related actions"
-msgstr "测试模型的相关动作"
-
-#~ msgid "Last Modified on"
-#~ msgstr "最后修改时间"
+msgstr "Prova modello per azioni collegate"
